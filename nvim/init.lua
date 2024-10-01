@@ -419,23 +419,9 @@ require('lazy').setup({
     end,
   },
 
-  -- {
-  --   'sainnhe/gruvbox-material',
-  --   priority = 1000,
-  --   init = function()
-  --     -- Load the colorscheme here.
-  --     -- Like many other themes, this one has different styles, and you could load
-  --     -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-  --     vim.cmd.colorscheme 'gruvbox-material'
-  --
-  --     vim.cmd.hi 'Comment gui=none'
-  --   end,
-  -- },
-
-  -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
 
-  { -- Collection of various s mall independent plugins/modules
+  {
     'echasnovski/mini.nvim',
     config = function()
       -- Better Around/Inside textobjects
