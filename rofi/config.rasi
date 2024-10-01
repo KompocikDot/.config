@@ -26,4 +26,4 @@ configuration{
     kb-move-char-forward: "Control+f";
     kb-mode-complete: "Control+o";
 }
-@theme "/usr/share/rofi/themes/base16-gruvbox-material-dark-medium.rasi"
+@theme "base16-gruvbox-material-dark-medium.rasi"
